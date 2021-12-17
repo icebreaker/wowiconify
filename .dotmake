@@ -1,0 +1,32 @@
+TARGET="wowiconify"
+
+function build()
+{
+	cc -O3 -lm $TARGET.c -o $TARGET
+}
+
+function execute()
+{
+	# local SOURCE="banner.png"
+	# local SOURCE="profile.png"
+	# local SOURCE="flamingo.png"
+	local SOURCE="test.png"
+	local STYLE="spells"
+	local OUTPUT="out.png"
+
+	build && \
+		dot-term -hold -e ./$TARGET $OUTPUT $SOURCE $STYLE/*.png && \
+		xdg-open $OUTPUT
+}
+
+function generate()
+{
+	echo 'Nothing to generate.'
+}
+
+function clean()
+{
+	rm $TARGET
+}
+
+# vim: set ft=bash:
