@@ -7,9 +7,9 @@ function build()
 
 function execute()
 {
-	# local SOURCE="banner.png"
-	# local SOURCE="profile.png"
-	# local SOURCE="flamingo.png"
+	# local SOURCE="tmp/banner.png"
+	# local SOURCE="tmp/profile.png"
+	# local SOURCE="tmp/flamingo.png"
 	local SOURCE="test.png"
 	local STYLE="spells"
 	local OUTPUT="out.png"

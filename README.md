@@ -21,16 +21,16 @@ funsies. Keep that in mind before you use any of it in a _production_ setting.
 
 ### Linux/macOS
 ```bash
-$ cc -O3 -lm src/wowiconify.c -o wowiconify
-$ ./wowiconify out.png test.png spells/*.png
+$ cc -O3 -lm src/wowiconify.c -o build/wowiconify
+$ build/wowiconify out.png test.png spells/*.png
 ```
 
 ### Windows
 VS 2019 and later.
 
 ```bash
-$ cl /O2 src/wowiconify.c /link /out:wowiconify.exe
-$ wowiconify out.png test.png spells/*.png
+$ cl /O2 src/wowiconify.c /link /out:build/wowiconify.exe
+$ build\wowiconify out.png test.png spells/*.png
 ```
 
 Credits
