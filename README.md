@@ -4,8 +4,9 @@ wowiconify takes a source input image and number of WOW spell icons and then pro
 and output image where every pixel from the source input image is approximated by a
 WOW spell icon.
 
-Sound complicated and confusing? Here's an image, which is supposed to be worth
-no more and no less than 1000 words.
+Sound complicated and confusing?
+
+Here's an image, which is supposed to be worth no more and no less than 1000 words.
 
 ### Source Input Image
 ![](test.png)
