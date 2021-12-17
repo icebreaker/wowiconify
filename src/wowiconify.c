@@ -149,7 +149,7 @@ static inline input_image_color_t input_image_sample_color(const input_image_t *
 	input_image_color_t *colors;
 	int ww, hh;
 
-#if INPUT_IMAGE_COLOR_SAMPLE_SIZE < INPUT_IMAGE_SIZE
+#if INPUT_IMAGE_COLOR_SAMPLE_SIZE > 0 && INPUT_IMAGE_COLOR_SAMPLE_SIZE < INPUT_IMAGE_SIZE
 	uint8_t sample_buffer[INPUT_IMAGE_COLOR_SAMPLE_SIZE * INPUT_IMAGE_COLOR_SAMPLE_SIZE * INPUT_IMAGE_BPP] = { 0, };
 
 	if(stbir_resize_uint8(
