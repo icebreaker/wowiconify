@@ -21,7 +21,7 @@ funsies. Keep that in mind before you use any of it in a _production_ setting.
 
 ### Linux/macOS
 ```bash
-$ cc -O3 -lm wowiconify.c -o wowiconify
+$ cc -O3 -lm src/wowiconify.c -o wowiconify
 $ ./wowiconify out.png test.png spells/*.png
 ```
 
@@ -29,7 +29,7 @@ $ ./wowiconify out.png test.png spells/*.png
 VS 2019 and later.
 
 ```bash
-$ cl /O2 wowiconify.c /link /out:wowiconify.exe
+$ cl /O2 src/wowiconify.c /link /out:wowiconify.exe
 $ wowiconify out.png test.png spells/*.png
 ```
 

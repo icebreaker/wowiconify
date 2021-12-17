@@ -2,7 +2,7 @@ TARGET="wowiconify"
 
 function build()
 {
-	cc -O3 -lm $TARGET.c -o $TARGET
+	cc -O3 -lm src/$TARGET.c -o $TARGET
 }
 
 function execute()
