@@ -11,8 +11,10 @@ Here's an image, which is supposed to be worth no more and no less than 1000 wor
 ### Source Input Image
 ![](test.png)
 
-### Output Image (click for hires)
+### Output Image
 [![](test_preview_out.png)](test_out.png)
+
+Click on the image above to view it in high resolution.
 
 Getting Started
 ---------------
