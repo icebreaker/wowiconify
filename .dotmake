@@ -1,8 +1,9 @@
-TARGET="wowiconify"
+NAME="wowiconify"
+TARGET=build/$NAME
 
 function build()
 {
-	cc -O3 -lm src/$TARGET.c -o $TARGET
+	cc -O3 -lm src/$NAME.c -o $TARGET
 }
 
 function execute()
@@ -15,7 +16,7 @@ function execute()
 	local OUTPUT="out.png"
 
 	build && \
-		dot-term -hold -e ./$TARGET $OUTPUT $SOURCE $STYLE/*.png && \
+		dot-term -hold -e $TARGET $OUTPUT $SOURCE $STYLE/*.png && \
 		xdg-open $OUTPUT
 }
 
