@@ -1,14 +1,14 @@
 wowiconify
 ==========
-wowiconify takes a source input image and number of WOW spell icons and then produces
+wowiconify takes a source input image and number of WoW spell icons and then produces
 and output image where every pixel from the source input image is approximated by a
-WOW spell icon.
+WoW spell icon.
 
-Sound complicated and confusing?
+Sound complicated and confusing? Fear not!
 
 Here's an image, which is supposed to be worth no more and no less than 1000 words.
 
-### Source Input Image
+### Input Image
 ![](test.png)
 
 ### Output Image
@@ -19,7 +19,9 @@ Click on the image above to view it in high resolution.
 Getting Started
 ---------------
 This is highly unoptimized and was thrown together in a couple of hours just for
-funsies. Keep that in mind before you use any of it in a _production_ setting.
+funsies as an experiment.
+
+Keep that in mind before you use any of it in a _production_ setting.
 
 ### Linux/macOS
 ```bash
