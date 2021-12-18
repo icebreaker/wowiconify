@@ -421,5 +421,4 @@ static bool write_output_image(const char *output_filename, const char *source_f
 	return ret;
 }
 
-// https://www.warcrafttavern.com/community/art-resources/icon-pack-4300-wow-retail-icons-in-png/
 /* vim: set ts=4 sw=4 sts=4 noet: */
