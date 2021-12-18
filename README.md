@@ -39,6 +39,7 @@ $ build\wowiconify out.png test.png spells/*.png
 
 Credits
 -------
+* [stb single file libraries][3] by [Sean Barret][4]
 * [4300+ WoW Retail Icons][1] by [barrens.chat][2]
 
 Contribute
@@ -57,3 +58,5 @@ For more information see LICENSE.
 
 [1]: https://www.warcrafttavern.com/community/art-resources/icon-pack-4300-wow-retail-icons-in-png/
 [2]: https://barrens.chat/
+[3]: https://github.com/nothings/stb
+[4]: https://twitter.com/nothings
